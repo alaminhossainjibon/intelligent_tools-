@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "price": "1000",
+        "quantity": "10000",
+        "name": "Rayhan chodhury",
+        "description": "Buy premium grade off-lease Dell products directly from Dell. Each system is rigorously tested, fully operational and supported by our US-based customer service team. Includes a limited warranty with the option to expand all assets.",
+        "img": "https://www.dellrefurbished.com/mas_assets/theme/dell_refurbished/images/homepage_box_3.png"
+    },
+    {
+        "id": "2",
+        "price": "1200",
+        "quantity": "10",
+        "name": "HP",
+        "description": "Introducing a Head of Digital role to DfE - DfE Digital and Technology",
+        "img": "https://dfedigital.blog.gov.uk/wp-content/uploads/sites/205/2021/05/laptops-at-bench-2-620x360.jpeg"
+    },
+    {
+        "id": "3",
+        "price": "1900",
+        "quantity": "10",
+        "name": "ASUS",
+        "description": "Asus Laptop M515DA-BQ502TS R5 -3500U/8 GB/1 Tb HDD/windows",
+        "img": "https://5.imimg.com/data5/ANDROID/Default/2020/9/WQ/XY/XZ/79079233/product-jpeg-500x500.jpg"
+    },
+    {
+        "id": "4",
+        "price": "1500",
+        "quantity": "10",
+        "name": "DELL LAPTOP",
+        "description": "Buy premium grade off-lease Dell products directly from Dell.",
+        "img": "https://image.made-in-china.com/2f0j00WHpUvBIrgzoN/Laptop-Storage-in-China-Warehouse-for-Industrial-Motherboard.jpg"
+    },
+    {
+        "id": "5",
+        "price": "1700",
+        "quantity": "10",
+        "name": "LENEVO",
+        "description": " Global Wholesaler and Exporter of Used & Refurbished PCs and Laptops",
+        "img": "https://www.xda-developers.com/files/2021/01/lenovo-thinkpad-2021-ces.jpg"
+    },
+    {
+        "id": "6",
+        "price": "3000",
+        "quantity": "10",
+        "name": "APPLE",
+        "description": "AC Adapters Apple Laptop Charger Adapter Extension Power Cable - China Power Cord",
+        "img": "https://image.made-in-china.com/44f3j00jNOGMkptZEgy/AC-Adapters-Apple-Laptop-Charger-Adapter-Extension-Power-Cable.jpg"
+    }
+]
