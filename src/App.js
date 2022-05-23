@@ -5,6 +5,9 @@ import Blogs from './components/Home/Blogs/Blogs';
 import Contact from './components/Home/Contact/Contact';
 import Home from './components/Home/Home/Home';
 import MyTools from './components/Home/MyTools/MyTools';
+import Reviews from './components/Home/Reviews/Reviews';
+import Login from './components/Login/Login';
+import Register from './components/Register/Register';
 import Navbar from './components/Shared/Navbar/Navbar';
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
         <Route path='blogs' element={<Blogs></Blogs>}></Route>
         <Route path='about' element={<About></About>}></Route>
         <Route path='contact' element={<Contact></Contact>}></Route>
+        <Route path='reviews' element={<Reviews></Reviews>}></Route>
+        <Route path='login' element={<Login></Login>}></Route>
+        <Route path='register' element={<Register></Register>}></Route>
         <Route path='myTools' element={<MyTools></MyTools>}></Route>
       </Routes>
 
