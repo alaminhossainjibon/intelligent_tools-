@@ -3,48 +3,48 @@
         "id": "1",
         "price": "1000",
         "quantity": "10000",
-        "name": "Rayhan chodhury",
-        "description": "Buy premium grade off-lease Dell products directly from Dell. Each system is rigorously tested, fully operational and supported by our US-based customer service team. Includes a limited warranty with the option to expand all assets.",
-        "img": "https://www.dellrefurbished.com/mas_assets/theme/dell_refurbished/images/homepage_box_3.png"
+        "name": "ROBOTICS HAND",
+        "description": "From the mainframe or chassis to the movable by hinging action, everything falls into the category of pure mechanical robotics.",
+        "img": "https://thecustomizewindows.com/wp-content/uploads/2011/12/Robotics-Parts-Which-Components-are-Needed-for-a-Robot.jpg"
     },
     {
         "id": "2",
-        "price": "1200",
-        "quantity": "10",
-        "name": "HP",
-        "description": "Introducing a Head of Digital role to DfE - DfE Digital and Technology",
-        "img": "https://dfedigital.blog.gov.uk/wp-content/uploads/sites/205/2021/05/laptops-at-bench-2-620x360.jpeg"
+        "price": "100",
+        "quantity": "7000",
+        "name": "ZEDCE",
+        "description": "ZEDCE makes parts for the robotics sector. The part shown here is made of treated 100 Cr6.",
+        "img": "https://www.zedce.com/en/wp-content/uploads/sites/3/2018/04/bar-turning-robotics-parts.jpg"
     },
     {
         "id": "3",
-        "price": "1900",
-        "quantity": "10",
-        "name": "ASUS",
-        "description": "Asus Laptop M515DA-BQ502TS R5 -3500U/8 GB/1 Tb HDD/windows",
-        "img": "https://5.imimg.com/data5/ANDROID/Default/2020/9/WQ/XY/XZ/79079233/product-jpeg-500x500.jpg"
+        "price": "300",
+        "quantity": "9000",
+        "name": "MOTORS",
+        "description": "60 RPM 12 Volt DC High Torque Gear Motor",
+        "img": "http://robotics-bd.com/1277-large_default/-60-rpm-12-volt-dc-high-torque-gear-motor-robotics-bangladesh.jpg"
     },
     {
         "id": "4",
-        "price": "1500",
-        "quantity": "10",
-        "name": "DELL LAPTOP",
-        "description": "Buy premium grade off-lease Dell products directly from Dell.",
-        "img": "https://image.made-in-china.com/2f0j00WHpUvBIrgzoN/Laptop-Storage-in-China-Warehouse-for-Industrial-Motherboard.jpg"
+        "price": "400",
+        "quantity": "12000",
+        "name": "Motor Shield L293D",
+        "description": "Arduino is a great starting point for electronics, and with a motor shield it can also be a nice tidy platform for robotics and mechatronics",
+        "img": "http://robotics-bd.com/63-home_default/motor-shield-l293d.jpg"
     },
     {
         "id": "5",
         "price": "1700",
-        "quantity": "10",
-        "name": "LENEVO",
-        "description": " Global Wholesaler and Exporter of Used & Refurbished PCs and Laptops",
-        "img": "https://www.xda-developers.com/files/2021/01/lenovo-thinkpad-2021-ces.jpg"
+        "quantity": "12200",
+        "name": "Pixy 2.1",
+        "description": "The Pixy 2.1 CMUcam5 Image Sensor - LEGO is a fast vision sensor you can quickly to find objects. You can connect it directly to Arduino and other controllers",
+        "img": "https://www.robotshop.com/media/catalog/product/cache/image/400x400/9df78eab33525d08d6e5fb8d27136e95/p/i/pixy-21-cmucam5-image-sensor-lego-3.jpg"
     },
     {
         "id": "6",
-        "price": "3000",
-        "quantity": "10",
-        "name": "APPLE",
-        "description": "AC Adapters Apple Laptop Charger Adapter Extension Power Cable - China Power Cord",
-        "img": "https://image.made-in-china.com/44f3j00jNOGMkptZEgy/AC-Adapters-Apple-Laptop-Charger-Adapter-Extension-Power-Cable.jpg"
+        "price": "420",
+        "quantity": "8200",
+        "name": "Robotic Gripper",
+        "description": "When referring to robotic prehension there are four general categories of robot grippers, these areImpactive – jaws or claws which physically grasp by direct impact upon the object.",
+        "img": "https://5.imimg.com/data5/FV/FJ/MY-13798942/robotic-gripper-500x500.jpg"
     }
 ]

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import footer from '../../../assets/images/footer.jpg'
 
 const Footer = () => {
@@ -10,10 +11,10 @@ const Footer = () => {
             }}
             class="footer footer-center p-10 bg-base-200 text-base-content">
             <div class="grid grid-flow-col gap-4 text-white">
-                <a class="link link-hover">About us</a>
-                <a class="link link-hover">Contact</a>
-                <a class="link link-hover">Tools</a>
-                <a class="link link-hover">Blogs</a>
+                <Link to='/about' class="link link-hover">About us</Link>
+                <Link to='/contact' class="link link-hover">Contact</Link>
+                <Link to='/myTools' class="link link-hover">Tools</Link>
+                <Link to='/blogs' class="link link-hover">Blogs</Link>
             </div>
             <div>
                 <div class="grid grid-flow-col gap-4 text-white">
