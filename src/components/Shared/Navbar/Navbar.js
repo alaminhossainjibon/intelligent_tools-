@@ -4,7 +4,7 @@ import logo from '../../../assets/images/logo.gif'
 
 const Navbar = () => {
     return (
-        <div class="navbar bg-neutral text-white">
+        <div class="navbar bg-neutral text-white sticky top-0 ">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -14,7 +14,6 @@ const Navbar = () => {
                         <li><Link to='/home'>Home</Link></li>
                         <li><Link to='/blogs'>Blogs</Link></li>
                         <li><Link to='/about'>About</Link></li>
-                        <li><Link to='/contact'>Contact</Link></li>
                         <li><Link to='/reviews'>Reviews</Link></li>
                     </ul>
                 </div>
@@ -28,12 +27,11 @@ const Navbar = () => {
                     <li><Link to='/home'>Home</Link></li>
                     <li><Link to='/blogs'>Blogs</Link></li>
                     <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
                     <li><Link to='/reviews'>Reviews</Link></li>
                 </ul>
             </div>
             <div class="navbar-end mx-4">
-                <Link to='login'>login</Link>
+                <Link to='login'>Login</Link>
             </div>
         </div>
     );

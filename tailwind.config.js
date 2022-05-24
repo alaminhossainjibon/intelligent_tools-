@@ -11,7 +11,7 @@ module.exports = {
           secondary: "#f6d860",
           accent: "#37cdbe",
           neutral: "#2E0A03",
-          "base-100": "#100E0E",
+          "base-100": "#1E0a02",
         },
       },
       "cupcake",

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import google from '../../assets/images/google.png'
 
 const Register = () => {
     return (
@@ -30,10 +31,15 @@ const Register = () => {
                                 <input type="password" placeholder="Your Password" class="input input-bordered required" />
                             </label>
 
-                            <Link to='/login' className='text-blue-400'><small>Already have an Register? Please Log in</small></Link>
+                            <Link to='/login' className='label-text-alt link link-hover text-blue-400'><small>Already have an Register? Please Log in</small></Link>
 
                             <button class="btn btn-primary font-bold my-6 text-white flex items-center">Register</button>
+                            <div className="divider">OR</div>
+                            <button
+                                className="btn btn-primary text-white"
+                            > <img src={google} alt="" /> CONTINUE WITH GOOGLE</button>
                         </form>
+
                     </div>
                 </div>
             </div>

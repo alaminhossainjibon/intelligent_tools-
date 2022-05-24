@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import google from '../../assets/images/google.png'
 
 const Login = () => {
     return (
@@ -21,11 +22,18 @@ const Login = () => {
                             <label class="input-group">
                                 <input type="password" placeholder="Your Password" class="input input-bordered required" />
                             </label>
+                            <a href="#" class="label-text-alt link link-hover text-blue-400">Forgot password?</a>
+                            <br />
+                            <Link to='/register' className='label-text-alt link link-hover text-blue-400'><small>You are new user? please Register Now</small></Link>
 
-                            <Link to='/register' className='text-blue-400'><small>You are new user? please Register Now</small></Link>
-
-                            <button class="btn btn-primary font-bold my-6 text-white flex items-center">Log In</button>
+                            {/* {signInError} */}
+                            <input className="btn btn-primary w-full max-w-xs text-white" type="submit" value="Login" />
                         </from>
+                        <div className="divider">OR</div>
+                        <button
+                            className="btn btn-primary text-white"
+                        // onClick={() => signInWithGoogle()}
+                        > <img src={google} alt="" /> CONTINUE WITH GOOGLE</button>
                     </div>
                 </div>
             </div>
