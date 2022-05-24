@@ -15,6 +15,7 @@ const Navbar = () => {
                         <li><Link to='/blogs'>Blogs</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/reviews'>Reviews</Link></li>
+                        <li><Link to='login'>Login</Link></li>
                     </ul>
                 </div>
                 <Link to='/home' class="btn btn-ghost text-xl text-bold">
@@ -28,10 +29,8 @@ const Navbar = () => {
                     <li><Link to='/blogs'>Blogs</Link></li>
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/reviews'>Reviews</Link></li>
+                    <li><Link to='login'>Login</Link></li>
                 </ul>
-            </div>
-            <div class="navbar-end mx-4">
-                <Link to='login'>Login</Link>
             </div>
         </div>
     );

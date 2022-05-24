@@ -12,7 +12,7 @@ import Navbar from './components/Shared/Navbar/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className=''>
       <Navbar></Navbar>
 
       <Routes>
