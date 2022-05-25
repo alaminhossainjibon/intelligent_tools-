@@ -10,23 +10,23 @@ const Stats = () => {
                 backgroundSize: 'cover',
                 // backgroundRepeat: 'no-repeat'
             }}
-            class="stats stats-vertical bg-primary grid sx:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 shadow">
+            className="stats stats-vertical bg-primary grid sx:grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 shadow">
 
-            <div class="stat">
-                <div class="">Visitors</div>
-                <div class="stat-value">31K</div>
+            <div className="stat">
+                <div className="">Visitors</div>
+                <div className="stat-value">31K</div>
             </div>
 
-            <div class="stat">
-                <div class="">New Users</div>
-                <div class="stat-value">4,200</div>
-                <div class="">↗︎ 400 (22%)</div>
+            <div className="stat">
+                <div className="">New Users</div>
+                <div className="stat-value">4,200</div>
+                <div className="">↗︎ 400 (22%)</div>
             </div>
 
-            <div class="stat">
-                <div class="">New Registers</div>
-                <div class="stat-value">1,200</div>
-                <div class="">↘︎ 90 (14%)</div>
+            <div className="stat">
+                <div className="">New Registers</div>
+                <div className="stat-value">1,200</div>
+                <div className="">↘︎ 90 (14%)</div>
             </div>
 
         </div>

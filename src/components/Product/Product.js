@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useNavigate } from 'react-router-dom';
 const Product = ({ product, setBuy }) => {
     const { _id, name, img, description, price, quantity } = product;
     return (
@@ -14,7 +13,7 @@ const Product = ({ product, setBuy }) => {
                 <label
                     for="buy-modal"
                     onClick={() => setBuy(product)}
-                    class="btn btn-primary font-bold my-6 text-white">BUY NoW</label>
+                    className="btn btn-primary font-bold my-6 text-white">BUY NoW</label>
             </div>
         </div>
     );
