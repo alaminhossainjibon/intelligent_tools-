@@ -1,8 +1,18 @@
+import { signOut } from 'firebase/auth';
 import React from 'react';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/images/logo.gif'
+import auth from '../../../firebase.init';
 
 const Navbar = () => {
+
+    const [user, loading, error] = useAuthState(auth);
+
+    const logout = () => {
+        signOut(auth);
+    };
+
     return (
         <div className="navbar bg-neutral text-white sticky top-0 ">
             <div className="navbar-start">
@@ -12,10 +22,12 @@ const Navbar = () => {
                     </label>
                     <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><Link to='/home'>Home</Link></li>
+                        <li><Link to='/myTools'>Buy Now</Link></li>
                         <li><Link to='/blogs'>Blogs</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/reviews'>Reviews</Link></li>
-                        <li><Link to='login'>Login</Link></li>
+
+                        <li>{user ? <button class="btn btn-ghost" onClick={logout} >Log Out</button> : <Link to='login'>Log In</Link>}</li>
                     </ul>
                 </div>
                 <Link to='/home' className="btn btn-ghost text-xl text-bold">
@@ -26,10 +38,11 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     <li><Link to='/home'>Home</Link></li>
+                    <li><Link to='/myTools'>Buy Now</Link></li>
                     <li><Link to='/blogs'>Blogs</Link></li>
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/reviews'>Reviews</Link></li>
-                    <li><Link to='login'>Login</Link></li>
+                    <li>{user ? <button class="btn btn-ghost" onClick={logout} >Log Out</button> : <Link to='login'>Log In</Link>}</li>
                 </ul>
             </div>
         </div>
