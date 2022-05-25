@@ -13,6 +13,9 @@ import Footer from './components/Shared/Footer/Footer';
 import Navbar from './components/Shared/Navbar/Navbar';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Dashboard from './components/Dashboard/Dashboard';
+import MyProducts from './components/Dashboard/MyProducts';
+import MyReview from './components/Dashboard/MyReview';
 
 
 function App() {
@@ -27,9 +30,22 @@ function App() {
         <Route path='about' element={<About></About>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='register' element={<Register></Register>}></Route>
-        <Route path='myTools' element={<RequireAuth>
-          <MyTools></MyTools>
-        </RequireAuth>}></Route>
+
+        <Route path='myTools' element={
+          <RequireAuth>
+            <MyTools></MyTools>
+          </RequireAuth>
+        }></Route>
+
+        <Route path='dashboard' element={
+          <RequireAuth>
+            <Dashboard></Dashboard>
+          </RequireAuth>
+        }>
+          <Route index element={<MyProducts></MyProducts>}></Route>
+          <Route path='review' element={<MyReview></MyReview>}></Route>
+        </Route>
+
         <Route path='reviews' element={<Reviews></Reviews>}></Route>
       </Routes>
       <ToastContainer />
