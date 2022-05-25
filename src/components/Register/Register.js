@@ -51,10 +51,10 @@ const Register = () => {
                         <h2 className='text-white text-center text-4xl font-bold my'>Register</h2>
                         <form onSubmit={handleSubmit(onSubmit)}>
                             {/* Name */}
-                            <div class="form-control w-full max-w-xs">
+                            <div className="form-control w-full max-w-xs">
 
-                                <label class="label">
-                                    <span class="label-text">Name</span>
+                                <label className="label">
+                                    <span className="label-text">Name</span>
                                 </label>
                                 <input
                                     type="text"
@@ -68,16 +68,16 @@ const Register = () => {
                                     })}
                                 />
 
-                                <label class="label">
+                                <label className="label">
                                     {errors.name?.type === 'required' && <span className="label-text-alt text-red-500">{errors.name.message}</span>}
                                 </label>
                             </div>
 
                             {/* Email */}
-                            <div class="form-control w-full max-w-xs">
+                            <div className="form-control w-full max-w-xs">
 
-                                <label class="label">
-                                    <span class="label-text">Email</span>
+                                <label className="label">
+                                    <span className="label-text">Email</span>
                                 </label>
                                 <input
                                     type="email"
@@ -95,7 +95,7 @@ const Register = () => {
                                     })}
                                 />
 
-                                <label class="label">
+                                <label className="label">
                                     {errors.email?.type === 'required' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
                                     {errors.email?.type === 'pattern' && <span className="label-text-alt text-red-500">{errors.email.message}</span>}
 
@@ -103,10 +103,10 @@ const Register = () => {
                             </div>
 
                             {/* password */}
-                            <div class="form-control w-full max-w-xs">
+                            <div className="form-control w-full max-w-xs">
 
-                                <label class="label">
-                                    <span class="label-text">Password</span>
+                                <label className="label">
+                                    <span className="label-text">Password</span>
                                 </label>
                                 <input
                                     type="password"
@@ -124,7 +124,7 @@ const Register = () => {
                                     })}
                                 />
 
-                                <label class="label">
+                                <label className="label">
                                     {errors.password?.type === 'required' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
                                     {errors.password?.type === 'minLength' && <span className="label-text-alt text-red-500">{errors.password.message}</span>}
                                 </label>

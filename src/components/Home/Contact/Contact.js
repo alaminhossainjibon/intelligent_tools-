@@ -36,7 +36,7 @@ const Contact = () => {
                                 <label className="label">
                                     <span className="label-text">Massage</span>
                                 </label>
-                                <input type="text-filed" placeholder="Your massage" className="input input-bordered" />
+                                <textarea className="textarea textarea-error" placeholder="Message"></textarea>
                             </div>
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Submit</button>

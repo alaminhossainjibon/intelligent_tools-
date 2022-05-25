@@ -11,7 +11,7 @@ const Product = ({ product, setBuy }) => {
 
             <div>
                 <label
-                    for="buy-modal"
+                    htmlFor="buy-modal"
                     onClick={() => setBuy(product)}
                     className="btn btn-primary font-bold my-6 text-white">BUY NoW</label>
             </div>

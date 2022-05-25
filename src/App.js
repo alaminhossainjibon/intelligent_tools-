@@ -11,6 +11,9 @@ import RequireAuth from './components/Login/RequireAuth';
 import Register from './components/Register/Register';
 import Footer from './components/Shared/Footer/Footer';
 import Navbar from './components/Shared/Navbar/Navbar';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
@@ -29,6 +32,7 @@ function App() {
         </RequireAuth>}></Route>
         <Route path='reviews' element={<Reviews></Reviews>}></Route>
       </Routes>
+      <ToastContainer />
       <Footer></Footer>
     </div>
   );

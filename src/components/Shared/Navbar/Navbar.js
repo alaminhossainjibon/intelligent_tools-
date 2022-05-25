@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/reviews'>Reviews</Link></li>
 
-                        <li>{user ? <button class="btn btn-ghost" onClick={logout} >Log Out</button> : <Link to='login'>Log In</Link>}</li>
+                        <li>{user ? <button className="btn btn-ghost" onClick={logout} >Log Out</button> : <Link to='login'>Log In</Link>}</li>
                     </ul>
                 </div>
                 <Link to='/home' className="btn btn-ghost text-xl text-bold">
@@ -42,7 +42,7 @@ const Navbar = () => {
                     <li><Link to='/blogs'>Blogs</Link></li>
                     <li><Link to='/about'>About</Link></li>
                     <li><Link to='/reviews'>Reviews</Link></li>
-                    <li>{user ? <button class="btn btn-ghost" onClick={logout} >Log Out</button> : <Link to='login'>Log In</Link>}</li>
+                    <li>{user ? <button className="btn btn-ghost" onClick={logout} >Log Out</button> : <Link to='login'>Log In</Link>}</li>
                 </ul>
             </div>
         </div>

@@ -4,12 +4,12 @@ import Products from '../../Products/Products';
 const MyTools = () => {
     return (
         <div>
-            <div class="hero min-h-screen bg-bg-neutral">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="https://thumbs.gfycat.com/ClearcutBelovedAustraliankelpie-max-1mb.gif" class="max-w-sm rounded-lg shadow-2xl" />
+            <div className="hero min-h-screen bg-bg-neutral">
+                <div className="hero-content flex-col lg:flex-row">
+                    <img src="https://thumbs.gfycat.com/ClearcutBelovedAustraliankelpie-max-1mb.gif" className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
-                        <h1 class="text-5xl font-bold">My high quality products</h1>
-                        <p class="py-6">Do you want to buy high quality robotics products? Then you can buy the product of your choice by clicking on the button below. click here All products!!</p>
+                        <h1 className="text-5xl font-bold">My high quality products</h1>
+                        <p className="py-6">Do you want to buy high quality robotics products? Then you can buy the product of your choice by clicking on the button below. click here All products!!</p>
                     </div>
                 </div>
             </div>
