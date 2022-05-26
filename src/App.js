@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/Home/About/About';
 import Blogs from './components/Home/Blogs/Blogs';
-import Contact from './components/Home/Contact/Contact';
 import Home from './components/Home/Home/Home';
 import MyTools from './components/Home/MyTools/MyTools';
 import Reviews from './components/Home/Reviews/Reviews';
@@ -19,6 +18,8 @@ import MyReview from './components/Dashboard/MyReview';
 import Myhistory from './components/Dashboard/Myhistory';
 import Users from './components/Dashboard/Users';
 import RequireAdmin from './components/Login/RequireAdmin';
+import NotFount from './components/NotFount';
+
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         </Route>
 
         <Route path='reviews' element={<Reviews></Reviews>}></Route>
+        <Route path='*' element={<NotFount></NotFount>}></Route>
       </Routes>
       <ToastContainer />
       <Footer></Footer>
