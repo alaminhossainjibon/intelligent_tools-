@@ -2,6 +2,21 @@
 
 This is my live website link: https://intelligent-tools-b0134.web.app/
 
+my website using:
+<br/>
+# 1. Javascript
+<br/>
+# 2. Tailwindcss
+<br/>
+# 3. DaisyUI
+<br/>
+# 4. React
+<br/>
+# 5. firebase
+<br/>
+# 6. heroku
+<br/>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
