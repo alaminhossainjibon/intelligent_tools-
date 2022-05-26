@@ -11,7 +11,7 @@ const MyProducts = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/buying?buyer=${user.email}`, {
+        fetch(`https://obscure-mountain-62076.herokuapp.com/buying?buyer=${user.email}`, {
             method: 'GET',
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -35,8 +35,8 @@ const MyProducts = () => {
     return (
         <div>
             <h2>My Products: {service.length}</h2>
-            <div class="overflow-x-auto">
-                <table class="table w-full">
+            <div className="overflow-x-auto">
+                <table className="table w-full">
 
                     <thead>
                         <tr>

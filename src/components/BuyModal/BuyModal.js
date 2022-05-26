@@ -21,7 +21,7 @@ const BuyModal = ({ buy, setBuy }) => {
             phone: e.target.phone.value
         }
 
-        fetch('http://localhost:5000/buying', {
+        fetch('https://obscure-mountain-62076.herokuapp.com/buying', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
