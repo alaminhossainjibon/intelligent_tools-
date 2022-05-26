@@ -24,6 +24,7 @@ const UserRow = ({ user, refetch }) => {
             })
     }
     return (
+
         <tr>
             <th>1</th>
             <td>{email}</td>
